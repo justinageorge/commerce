@@ -45,5 +45,3 @@ class CustomerRegistrationView(View):
         return render(request,"app/registration.html",{"form":form})    
     
 
-class SignInView(FormView):
-     template_name    
